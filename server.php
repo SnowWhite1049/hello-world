@@ -9,7 +9,8 @@
 
 $uri = urldecode(
     parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) ?? ''
-//     Let's try working on the NB branch???!!!
+    // Let's try working on the NB branch???!!!
+    // This is the local repository working result to see the git remote branch push
 );
 
 // This file allows us to emulate Apache's "mod_rewrite" functionality from the
